@@ -1,6 +1,5 @@
 "" edward's vim script
 
-" vundle requirements
 set nocompatible
 filetype off
 
@@ -26,10 +25,12 @@ set showmode
 set showcmd
 set mouse=a
 set encoding=utf-8
-set textwidth=80
+set scrolloff=5
+set backspace=indent,eol,start
+" do not break lines actually, but wrap them when display
+set textwidth=0
 set wrap
 set linebreak
-set scrolloff=5
 
 " search
 set showmatch
