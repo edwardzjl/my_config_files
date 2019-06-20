@@ -1,0 +1,44 @@
+
+
+## OS
+
+### Mac
+.DS_Store
+
+### Windows
+Thumbs.db
+
+## compiled files
+
+### java
+
+*.class
+
+### python
+
+*.pyc
+
+## packages
+
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+## Node
+npm-debug.log
+
+# WebStorm
+.idea/
+
+# vi
+*~
+
+# General
+log/
+*.log
+
