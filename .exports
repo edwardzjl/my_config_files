@@ -1,0 +1,34 @@
+
+# LANG
+export LANG=en_US.UTF-8
+
+# enable dircolors
+export CLICOLOR=1
+
+# solarized dircolors
+export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
+
+# java
+export JAVA_HOME="/usr/libexec/java_home"
+
+# brew sbin
+export PATH="/usr/local/sbin:$PATH"
+
+# sqlite by brew
+export SQLITE_HOME="/usr/local/opt/sqlite"
+export PATH="$SQLITE_HOME/bin:$PATH"
+
+# libffi
+export LDFLAGS="-L/usr/local/opt/libffi/lib"
+
+# hadoop
+export HADOOP_HOME="/usr/local/opt/hadoop/libexec"
+
+# hive
+export HIVE_HOME="/usr/local/opt/hive/libexec"
+
+# This should be the last line of the file
+# For local changes
+# Don't make edits below this
+[ -f ".exports.local" ] && source ".exports.local"
+

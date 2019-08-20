@@ -1,0 +1,17 @@
+
+# proxy for terminal
+alias proxy='export all_proxy=socks5://127.0.0.1:1080; export ALL_PROXY=socks5://127.0.0.1:1080'
+alias unproxy='unset all_proxy; unset ALL_PROXY'
+
+# git show my commits
+alias git-me='git log --committer="edwardzjl"'
+
+# postgre server
+alias start-postgres='pg_ctl -D /usr/local/var/postgres start'
+alias stop-postgres='pg_ctl -D /usr/local/var/postgres stop'
+
+# This should be the last line of the file
+# For local changes
+# Don't make edits below this
+[ -f ".aliases.local" ] && source ".aliases.local"
+
