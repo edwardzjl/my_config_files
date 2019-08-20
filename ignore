@@ -32,13 +32,17 @@ Thumbs.db
 ## Node
 npm-debug.log
 
-# WebStorm
+## WebStorm
 .idea/
 
-# vi
+## vi
 *~
 
-# General
+## Logs
 log/
 *.log
+
+## VSCode
+.vscode/
+.settings/
 
