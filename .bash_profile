@@ -1,7 +1,7 @@
 
-source .aliases
-source .evals
-source .exports
+source "$HOME"/.aliases
+source "$HOME"/.evals
+source "$HOME"/.exports
 
 # This should be the last line of the file
 # For local changes
