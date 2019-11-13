@@ -2,8 +2,6 @@
 # jenv
 eval "$(jenv init -)"
 
-# the fuck
-eval $(thefuck --alias)
 
 # This should be the last line of the file
 # For local changes
