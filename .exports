@@ -9,7 +9,7 @@ export CLICOLOR=1
 export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 
 # java
-export JAVA_HOME="/usr/libexec/java_home"
+#export JAVA_HOME="/usr/libexec/java_home"
 
 # brew sbin
 export PATH="/usr/local/sbin:$PATH"

@@ -1,6 +1,8 @@
 
 # jenv
-eval "$(jenv init -)"
+if [ $( echo "$OSTYPE" | grep 'darwin' ) ] ; then
+    eval "$(jenv init -)"
+fi
 
 
 # This should be the last line of the file
