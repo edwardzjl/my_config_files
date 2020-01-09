@@ -16,6 +16,8 @@ export PATH="/usr/local/sbin:$PATH"
 
 # ssl
 export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
+export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
 
 # python
 export PATH="/usr/local/opt/tcl-tk/bin:$PATH"

@@ -9,6 +9,9 @@
 Thumbs.db
 
 ## compiled files
+/target/**
+*/target/*
+*/target/**
 
 ### java
 
@@ -35,7 +38,7 @@ npm-debug.log
 
 ## WebStorm
 .idea/
-.iml
+*.iml
 
 ## vi
 *~
