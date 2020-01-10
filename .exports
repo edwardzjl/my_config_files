@@ -14,11 +14,6 @@ export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 # brew sbin
 export PATH="/usr/local/sbin:$PATH"
 
-# ssl
-export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
-export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
-export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
-
 # python
 export PATH="/usr/local/opt/tcl-tk/bin:$PATH"
 
@@ -26,11 +21,6 @@ export PATH="/usr/local/opt/tcl-tk/bin:$PATH"
 export SQLITE_HOME="/usr/local/opt/sqlite"
 export PATH="$SQLITE_HOME/bin:$PATH"
 
-# hadoop
-export HADOOP_HOME="/usr/local/opt/hadoop/libexec"
-
-# hive
-export HIVE_HOME="/usr/local/opt/hive/libexec"
 
 # This should be the last line of the file
 # For local changes
